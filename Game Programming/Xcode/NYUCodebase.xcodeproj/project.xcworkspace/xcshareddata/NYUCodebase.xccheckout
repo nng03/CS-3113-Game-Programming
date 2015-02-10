@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>64C8C488-AEDA-4B70-A52C-C71D742A4F87</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3B2A1AB5278D65CEA40CD2956C4EF13223C4FA97</key>
+		<string>https://github.com/Palisand/intro-to-game.git</string>
+		<key>87B8BDFD3B7109C7EE5C9A42582B5A75074E57CC</key>
+		<string>https://github.com/ivansafrin/CS3113.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3B2A1AB5278D65CEA40CD2956C4EF13223C4FA97</key>
+		<string>Peter's%20Game/</string>
+		<key>87B8BDFD3B7109C7EE5C9A42582B5A75074E57CC</key>
+		<string>CS3113/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ivansafrin/CS3113.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>87B8BDFD3B7109C7EE5C9A42582B5A75074E57CC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>87B8BDFD3B7109C7EE5C9A42582B5A75074E57CC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CS3113</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3B2A1AB5278D65CEA40CD2956C4EF13223C4FA97</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Peter's%20Game</string>
+		</dict>
+	</array>
+</dict>
+</plist>
