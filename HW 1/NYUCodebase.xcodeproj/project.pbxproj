@@ -15,10 +15,10 @@
 		6D5A86E319AE5CD10066C1FD /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5A86E219AE5CD10066C1FD /* SDL2.framework */; };
 		6D5AC2D019AE6280004CB1BF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5AC2CF19AE6280004CB1BF /* OpenGL.framework */; };
 		6D5AC2D219AE6A1E004CB1BF /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5AC2D119AE6A1E004CB1BF /* SDL2_image.framework */; };
-		EA7CEC091A8A8CE600EBAB18 /* p1_hurt.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7CEC081A8A8CE600EBAB18 /* p1_hurt.png */; };
-		EA7CEC0B1A8A8D0500EBAB18 /* p1_jump.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7CEC0A1A8A8D0500EBAB18 /* p1_jump.png */; };
-		EA7CEC0D1A8A8D0E00EBAB18 /* blockerSad.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7CEC0C1A8A8D0E00EBAB18 /* blockerSad.png */; };
-		EA7CEC0F1A8A8D1700EBAB18 /* blockerMad.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7CEC0E1A8A8D1700EBAB18 /* blockerMad.png */; };
+		EA05998D1A8A8E3600A8B28E /* p1_hurt.png in Resources */ = {isa = PBXBuildFile; fileRef = EA05998B1A8A8E3600A8B28E /* p1_hurt.png */; };
+		EA05998E1A8A8E3600A8B28E /* p1_jump.png in Resources */ = {isa = PBXBuildFile; fileRef = EA05998C1A8A8E3600A8B28E /* p1_jump.png */; };
+		EA0599911A8A8E4200A8B28E /* blockerMad.png in Resources */ = {isa = PBXBuildFile; fileRef = EA05998F1A8A8E4200A8B28E /* blockerMad.png */; };
+		EA0599921A8A8E4200A8B28E /* blockerSad.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0599901A8A8E4200A8B28E /* blockerSad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,10 +39,10 @@
 		6D5A86E219AE5CD10066C1FD /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
 		6D5AC2CF19AE6280004CB1BF /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		6D5AC2D119AE6A1E004CB1BF /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
-		EA7CEC081A8A8CE600EBAB18 /* p1_hurt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = p1_hurt.png; path = "../../../../CS3113/assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Player/p1_hurt.png"; sourceTree = "<group>"; };
-		EA7CEC0A1A8A8D0500EBAB18 /* p1_jump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = p1_jump.png; path = "../../../../CS3113/assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Player/p1_jump.png"; sourceTree = "<group>"; };
-		EA7CEC0C1A8A8D0E00EBAB18 /* blockerSad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blockerSad.png; path = "../../../../CS3113/assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Enemies/blockerSad.png"; sourceTree = "<group>"; };
-		EA7CEC0E1A8A8D1700EBAB18 /* blockerMad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blockerMad.png; path = "../../../../CS3113/assets/graphics/Platformer assets (1330 assets)/Base pack (360 assets)/Enemies/blockerMad.png"; sourceTree = "<group>"; };
+		EA05998B1A8A8E3600A8B28E /* p1_hurt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p1_hurt.png; sourceTree = "<group>"; };
+		EA05998C1A8A8E3600A8B28E /* p1_jump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p1_jump.png; sourceTree = "<group>"; };
+		EA05998F1A8A8E4200A8B28E /* blockerMad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blockerMad.png; sourceTree = "<group>"; };
+		EA0599901A8A8E4200A8B28E /* blockerSad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blockerSad.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,11 +113,11 @@
 		6D5A86B419AE5C710066C1FD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EA7CEC0A1A8A8D0500EBAB18 /* p1_jump.png */,
-				EA7CEC0E1A8A8D1700EBAB18 /* blockerMad.png */,
-				EA7CEC0C1A8A8D0E00EBAB18 /* blockerSad.png */,
-				EA7CEC081A8A8CE600EBAB18 /* p1_hurt.png */,
 				6D5A86C519AE5C710066C1FD /* Images.xcassets */,
+				EA05998F1A8A8E4200A8B28E /* blockerMad.png */,
+				EA0599901A8A8E4200A8B28E /* blockerSad.png */,
+				EA05998B1A8A8E3600A8B28E /* p1_hurt.png */,
+				EA05998C1A8A8E3600A8B28E /* p1_jump.png */,
 				6D5A86B519AE5C710066C1FD /* NYUCodebase-Info.plist */,
 				6D5A86B619AE5C710066C1FD /* InfoPlist.strings */,
 				6D5A86BC19AE5C710066C1FD /* Credits.rtf */,
@@ -205,12 +205,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D5A86B819AE5C710066C1FD /* InfoPlist.strings in Resources */,
-				EA7CEC091A8A8CE600EBAB18 /* p1_hurt.png in Resources */,
+				EA05998D1A8A8E3600A8B28E /* p1_hurt.png in Resources */,
 				6D5A86C619AE5C710066C1FD /* Images.xcassets in Resources */,
-				EA7CEC0B1A8A8D0500EBAB18 /* p1_jump.png in Resources */,
+				EA0599921A8A8E4200A8B28E /* blockerSad.png in Resources */,
+				EA05998E1A8A8E3600A8B28E /* p1_jump.png in Resources */,
 				6D5A86BE19AE5C710066C1FD /* Credits.rtf in Resources */,
-				EA7CEC0F1A8A8D1700EBAB18 /* blockerMad.png in Resources */,
-				EA7CEC0D1A8A8D0E00EBAB18 /* blockerSad.png in Resources */,
+				EA0599911A8A8E4200A8B28E /* blockerMad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
