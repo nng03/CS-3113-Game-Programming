@@ -23,7 +23,8 @@ public:
     ~Entity();
     
     void draw();
-    void drawSprite(float scale);
+    void drawSprite(int index, int spriteCountX, int spriteCountY, float scale);
+    void move(float elapsed);
     
     float x;
     float y;

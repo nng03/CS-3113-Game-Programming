@@ -36,6 +36,7 @@ public:
     void UpdateGameLevel(float elapsed);
     void UpdateGameOver(float elapsed);
     
+    GLuint loadTexture(const char* imagePath);
     void drawFontToScreen(GLuint fontTexture, std::string text, float size, float spacing, float r, float g, float b, float a, float x, float y);
     
 private:
@@ -58,6 +59,7 @@ private:
     const Uint8* keys;
     
     float lastFrameTicks;
+    float seconds;
 };
 
 #endif /* defined(__NYUCodebase__spaceInvaders__) */

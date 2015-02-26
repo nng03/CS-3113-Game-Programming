@@ -15,10 +15,10 @@
 		6D5A86E319AE5CD10066C1FD /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5A86E219AE5CD10066C1FD /* SDL2.framework */; };
 		6D5AC2D019AE6280004CB1BF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5AC2CF19AE6280004CB1BF /* OpenGL.framework */; };
 		6D5AC2D219AE6A1E004CB1BF /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5AC2D119AE6A1E004CB1BF /* SDL2_image.framework */; };
+		EA25DDC51A9F8547004208B3 /* pixel_font.png in Resources */ = {isa = PBXBuildFile; fileRef = EA25DDC41A9F8547004208B3 /* pixel_font.png */; };
+		EA25DDC71A9FA1A1004208B3 /* slice01_01.png in Resources */ = {isa = PBXBuildFile; fileRef = EA25DDC61A9FA1A1004208B3 /* slice01_01.png */; };
 		EA2FC5951A9BE3CD00AFC64A /* spaceInvaders.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA2FC5931A9BE3CD00AFC64A /* spaceInvaders.cpp */; };
 		EA2FC5981A9BE40800AFC64A /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA2FC5961A9BE40800AFC64A /* Entity.cpp */; };
-		EA9487D61A9D1EC3006190B1 /* pixel_font.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9487D51A9D1EC3006190B1 /* pixel_font.png */; };
-		EA9487D81A9D1F43006190B1 /* sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9487D71A9D1F43006190B1 /* sheet.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,12 +39,12 @@
 		6D5A86E219AE5CD10066C1FD /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
 		6D5AC2CF19AE6280004CB1BF /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		6D5AC2D119AE6A1E004CB1BF /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		EA25DDC41A9F8547004208B3 /* pixel_font.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pixel_font.png; sourceTree = "<group>"; };
+		EA25DDC61A9FA1A1004208B3 /* slice01_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slice01_01.png; sourceTree = "<group>"; };
 		EA2FC5931A9BE3CD00AFC64A /* spaceInvaders.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = spaceInvaders.cpp; sourceTree = "<group>"; };
 		EA2FC5941A9BE3CD00AFC64A /* spaceInvaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spaceInvaders.h; sourceTree = "<group>"; };
 		EA2FC5961A9BE40800AFC64A /* Entity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Entity.cpp; sourceTree = "<group>"; };
 		EA2FC5971A9BE40800AFC64A /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
-		EA9487D51A9D1EC3006190B1 /* pixel_font.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pixel_font.png; sourceTree = "<group>"; };
-		EA9487D71A9D1F43006190B1 /* sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sheet.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				6D5A86C519AE5C710066C1FD /* Images.xcassets */,
-				EA9487D71A9D1F43006190B1 /* sheet.png */,
-				EA9487D51A9D1EC3006190B1 /* pixel_font.png */,
+				EA25DDC61A9FA1A1004208B3 /* slice01_01.png */,
+				EA25DDC41A9F8547004208B3 /* pixel_font.png */,
 				6D5A86B519AE5C710066C1FD /* NYUCodebase-Info.plist */,
 				6D5A86B619AE5C710066C1FD /* InfoPlist.strings */,
 				6D5A86BC19AE5C710066C1FD /* Credits.rtf */,
@@ -208,9 +208,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA25DDC71A9FA1A1004208B3 /* slice01_01.png in Resources */,
 				6D5A86B819AE5C710066C1FD /* InfoPlist.strings in Resources */,
-				EA9487D61A9D1EC3006190B1 /* pixel_font.png in Resources */,
-				EA9487D81A9D1F43006190B1 /* sheet.png in Resources */,
+				EA25DDC51A9F8547004208B3 /* pixel_font.png in Resources */,
 				6D5A86C619AE5C710066C1FD /* Images.xcassets in Resources */,
 				6D5A86BE19AE5C710066C1FD /* Credits.rtf in Resources */,
 			);
