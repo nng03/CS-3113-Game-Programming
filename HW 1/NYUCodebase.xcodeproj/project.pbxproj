@@ -20,6 +20,7 @@
 		EA0599911A8A8E4200A8B28E /* blockerMad.png in Resources */ = {isa = PBXBuildFile; fileRef = EA05998F1A8A8E4200A8B28E /* blockerMad.png */; };
 		EA0599921A8A8E4200A8B28E /* blockerSad.png in Resources */ = {isa = PBXBuildFile; fileRef = EA0599901A8A8E4200A8B28E /* blockerSad.png */; };
 		EA25DDC31A9F8392004208B3 /* pixel_font.png in Resources */ = {isa = PBXBuildFile; fileRef = EA25DDC21A9F8392004208B3 /* pixel_font.png */; };
+		EA96DED21AC1AE54007D83C5 /* link.png in Resources */ = {isa = PBXBuildFile; fileRef = EA96DED11AC1AE54007D83C5 /* link.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		EA05998F1A8A8E4200A8B28E /* blockerMad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blockerMad.png; sourceTree = "<group>"; };
 		EA0599901A8A8E4200A8B28E /* blockerSad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blockerSad.png; sourceTree = "<group>"; };
 		EA25DDC21A9F8392004208B3 /* pixel_font.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pixel_font.png; sourceTree = "<group>"; };
+		EA96DED11AC1AE54007D83C5 /* link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = link.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				EA0599901A8A8E4200A8B28E /* blockerSad.png */,
 				EA05998B1A8A8E3600A8B28E /* p1_hurt.png */,
 				EA05998C1A8A8E3600A8B28E /* p1_jump.png */,
+				EA96DED11AC1AE54007D83C5 /* link.png */,
 				6D5A86B519AE5C710066C1FD /* NYUCodebase-Info.plist */,
 				6D5A86B619AE5C710066C1FD /* InfoPlist.strings */,
 				6D5A86BC19AE5C710066C1FD /* Credits.rtf */,
@@ -209,6 +212,7 @@
 			files = (
 				6D5A86B819AE5C710066C1FD /* InfoPlist.strings in Resources */,
 				EA25DDC31A9F8392004208B3 /* pixel_font.png in Resources */,
+				EA96DED21AC1AE54007D83C5 /* link.png in Resources */,
 				EA05998D1A8A8E3600A8B28E /* p1_hurt.png in Resources */,
 				6D5A86C619AE5C710066C1FD /* Images.xcassets in Resources */,
 				EA0599921A8A8E4200A8B28E /* blockerSad.png in Resources */,

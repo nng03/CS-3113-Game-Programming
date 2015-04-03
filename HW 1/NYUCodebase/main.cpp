@@ -56,7 +56,7 @@ int main(int argc, char *argv[])
 	bool done = false;
 	SDL_Event event;
     
-    GLuint image = loadTexture("p1_jump.png");
+    GLuint image = loadTexture("link.png");
     GLuint image2 = loadTexture("blockerMad.png");
     GLuint image3 = loadTexture("p1_hurt.png");
     GLuint image4 = loadTexture("blockerSad.png");
