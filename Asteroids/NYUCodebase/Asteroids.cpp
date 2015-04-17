@@ -95,36 +95,36 @@ void Asteroids::createWorld()
     // Enemy Initialization
     
 //    GLuint enemySprite = loadTexture("asteroids.png");
-////    GLuint enemySprite = loadTexture("asteroids.png");
-//    for (size_t i = 0; i < ASTEROIDS_MAX_NUM; i++)
-//    {
-////        asteroids[i].sheetSprite = SheetSprite(enemySprite, 224.0f / 1024.0f, 664.0f / 1024.0f, 101.0f / 1024.0f, 84.0f / 1024.0f);
-////        asteroids[i].sheetSprite = SheetSprite(enemySprite, 1, 1, 3);
-//        asteroids[i].textureID = enemySprite;
-//        asteroids[i].indexSprite = 3;
-//        asteroids[i].uSprite = 0.0;
-//        asteroids[i].vSprite = 0.66;
-//        asteroids[i].wSprite = 1.0;
-//        asteroids[i].hSPrite = 0.33;
-//        asteroids[i].x = ((float)(rand() / (float)(RAND_MAX) * (1.33 + 1.33)) - 1.33);
-//        asteroids[i].y = ((float)(rand() / (float)(RAND_MAX) * (1 + 1)) - 1);
-//        asteroids[i].scale = 0.5f;
-////        asteroids[i].yScale = 1.0f;
-//        asteroids[i].w = ((float)(rand() / (float)(RAND_MAX) * (0.5 - 0.2)) + 0.2);
-//        asteroids[i].h = ((float)(rand() / (float)(RAND_MAX) * (0.5 - 0.2)) + 0.2);
-//        asteroids[i].rotation = ((float)(rand() / (float)(RAND_MAX) * (360 - 0)) + 0);
-//        asteroids[i].isStatic = false;
-//        asteroids[i].xVelocity = 0.0f;
-//        asteroids[i].yVelocity = 0.0f;
-//        asteroids[i].rotationalVelocity = 0.0f;
-//        asteroids[i].xFriction = 2.0f;
-//        asteroids[i].yFriction = 2.0f;
-//        asteroids[i].rotationalFric = 2.0f;
-//        asteroids[i].xAccel = ((float)(rand() / (float)(RAND_MAX) * (250 + 250)) - 250);
-//        asteroids[i].yAccel = ((float)(rand() / (float)(RAND_MAX) * (250 + 250)) - 250);
-//        asteroids[i].rotationalAccel = ((float)(rand() / (float)(RAND_MAX) * (250 + 250)) - 250);
-//        entities.push_back(&asteroids[i]);
-//    }
+    GLuint enemySprite = loadTexture("asteroids.png");
+    for (size_t i = 0; i < ASTEROIDS_MAX_NUM; i++)
+    {
+//        asteroids[i].sheetSprite = SheetSprite(enemySprite, 224.0f / 1024.0f, 664.0f / 1024.0f, 101.0f / 1024.0f, 84.0f / 1024.0f);
+//        asteroids[i].sheetSprite = SheetSprite(enemySprite, 1, 1, 3);
+        asteroids[i].textureID = enemySprite;
+        asteroids[i].indexSprite = 3;
+        asteroids[i].uSprite = 0.0;
+        asteroids[i].vSprite = 0.66;
+        asteroids[i].wSprite = 1.0;
+        asteroids[i].hSPrite = 0.33;
+        asteroids[i].x = ((float)(rand() / (float)(RAND_MAX) * (1.33 + 1.33)) - 1.33);
+        asteroids[i].y = ((float)(rand() / (float)(RAND_MAX) * (1 + 1)) - 1);
+        asteroids[i].scale = 0.5f;
+//        asteroids[i].yScale = 1.0f;
+        asteroids[i].w = ((float)(rand() / (float)(RAND_MAX) * (0.5 - 0.2)) + 0.2);
+        asteroids[i].h = ((float)(rand() / (float)(RAND_MAX) * (0.5 - 0.2)) + 0.2);
+        asteroids[i].rotation = ((float)(rand() / (float)(RAND_MAX) * (360 - 0)) + 0);
+        asteroids[i].isStatic = false;
+        asteroids[i].xVelocity = 0.0f;
+        asteroids[i].yVelocity = 0.0f;
+        asteroids[i].rotationalVelocity = 0.0f;
+        asteroids[i].xFriction = 2.0f;
+        asteroids[i].yFriction = 2.0f;
+        asteroids[i].rotationalFric = 2.0f;
+        asteroids[i].xAccel = ((float)(rand() / (float)(RAND_MAX) * (250 + 250)) - 250);
+        asteroids[i].yAccel = ((float)(rand() / (float)(RAND_MAX) * (250 + 250)) - 250);
+        asteroids[i].rotationalAccel = ((float)(rand() / (float)(RAND_MAX) * (250 + 250)) - 250);
+        entities.push_back(&asteroids[i]);
+    }
 }
 
 void Asteroids::render()
