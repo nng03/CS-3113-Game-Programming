@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="50" tilewidth="70" tileheight="70" nextobjectid="27">
+ <tileset firstgid="1" name="tiles" tilewidth="70" tileheight="70" spacing="2" margin="1">
+  <image source="tiles_spritesheet.png" width="914" height="936"/>
+ </tileset>
+ <tileset firstgid="157" name="enemies" tilewidth="76" tileheight="31" spacing="1" margin="1">
+  <image source="enemies_spritesheet.png" width="353" height="153"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="25" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztlcERgDAIBCkoNdh/WY5/zYBccseEx33jsiAMMxudMrkCYbN24r3t9zEcyH9ApS62S4+HavtnJ2vF78z6ubMepRvnZfjLp7in2c4R/WJzvLlUY8vMCMqF986wHa1w8OXlBA+zmUC6rZTMDVGsnc2T9bKSneUm6kN1thC8nl2Mrvt56wYAq98B
+  </data>
+ </layer>
+ <layer name="Door Layer" width="25" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztzQENAAAIA6AnMoD9g9nCOQcFSG6qhaOfHAAAAADcN8wVAKM=
+  </data>
+ </layer>
+ <objectgroup name="Player">
+  <object id="5" name="Player" type="PlayerPos" gid="25" x="13.0124" y="3421.29" width="10" height="10"/>
+ </objectgroup>
+ <objectgroup name="Enemies">
+  <object id="12" name="Enemy" type="enemies" gid="157" x="428.003" y="2889.39"/>
+  <object id="13" name="Enemy" type="enemies" gid="157" x="554.389" y="3207.12"/>
+  <object id="14" name="Enemy" type="enemies" gid="157" x="1434.85" y="2961.41"/>
+  <object id="15" name="Enemy" type="enemies" gid="157" x="727.375" y="2309.71"/>
+  <object id="16" name="Enemy" type="enemies" gid="157" x="780.329" y="1204.01"/>
+  <object id="17" name="Enemy" type="enemies" gid="157" x="942.724" y="1315.57"/>
+  <object id="18" name="Enemy" type="enemies" gid="157" x="762.678" y="1376.29"/>
+  <object id="19" name="Enemy" type="enemies" gid="157" x="1362.13" y="2198.86"/>
+  <object id="20" name="Enemy" type="enemies" gid="157" x="1250.57" y="2086.6"/>
+  <object id="21" name="Enemy" type="enemies" gid="157" x="285.378" y="1919.96"/>
+  <object id="22" name="Enemy" type="enemies" gid="157" x="1395.31" y="562.2"/>
+  <object id="23" name="Enemy" type="enemies" gid="157" x="1580.3" y="587.619"/>
+  <object id="24" name="Enemy" type="enemies" gid="157" x="1550.65" y="734.48"/>
+  <object id="25" name="Enemy" type="enemies" gid="157" x="1018.27" y="906.76"/>
+  <object id="26" name="Enemy" type="enemies" gid="157" x="342.569" y="483.827"/>
+ </objectgroup>
+</map>

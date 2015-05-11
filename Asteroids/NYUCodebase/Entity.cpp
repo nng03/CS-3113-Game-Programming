@@ -175,6 +175,7 @@ void Entity::createMatrix()
     Matrix sca;
     Matrix rotate;
     Matrix translate;
+    matrix.identity();
 
     sca.m[0][0] = scale;
     sca.m[1][1] = scale;

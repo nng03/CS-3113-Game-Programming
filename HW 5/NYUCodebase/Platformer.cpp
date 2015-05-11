@@ -168,8 +168,8 @@ bool Platformer::readEntityData(std::ifstream &stream) {
             string xPos, yPos;
             getline(lineStream, xPos, ',');
             getline(lineStream, yPos, ',');
-            float placeX = atoi(xPos.c_str()) / 16 * TILE_SIZE;
-            float placeY = atoi(yPos.c_str()) / 16 * -TILE_SIZE;
+            float placeX = atoi(xPos.c_str()) / 22 * TILE_SIZE;
+            float placeY = atoi(yPos.c_str()) / 22 * -TILE_SIZE;
             placeEntity(type, placeX, placeY);
         }
     }
@@ -299,8 +299,8 @@ void Platformer::buildWorld()
 
 void Platformer::worldToTileCoords(float worldX, float worldY, int* gridX, int* gridY)
 {
-    *gridX = (int)(worldX / 0.1f);
-    *gridY = (int)(-worldY / 0.1f);
+    *gridX = (int)(worldX / TILE_SIZE);
+    *gridY = (int)(-worldY / TILE_SIZE);
 }
 
 bool Platformer::isSolid(unsigned char tile)
